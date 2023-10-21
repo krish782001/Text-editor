@@ -1,4 +1,4 @@
-1.Run command - npm install
+1.Run command - npm install & 
 ng update
 Because this project dont have node-modules folder after running these commands it install the node_modules folder..
 
