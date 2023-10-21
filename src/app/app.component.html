@@ -1,0 +1,9 @@
+<h1 class="text-center">Text Editor</h1>
+<div id="editor" class="text" class="border border-5">
+  <textarea class="form-control" [(ngModel)]="code" [readonly]="locked"></textarea>
+</div> <br>
+<div class="text-center" id="button">
+  <button class="btn btn-outline-dark" (click)="copyCode()"><i class="bi bi-clipboard"></i></button>
+  <button class="btn btn-outline-dark" (click)="saveCode()"><i class="bi bi-save"></i></button>
+  <button class="btn btn-outline-dark" (click)="toggleLock()"><i class="bi bi-lock"></i> | <i class="bi bi-unlock"></i></button>
+</div>
